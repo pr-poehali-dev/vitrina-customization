@@ -14,9 +14,7 @@ export default {
 		container: {
 			center: true,
 			padding: '2rem',
-			screens: {
-				'2xl': '1400px'
-			}
+			screens: { '2xl': '1400px' }
 		},
 		extend: {
 			fontFamily: {
@@ -67,26 +65,18 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				gold: {
-					50: '#fdf7ef',
-					100: '#f9ead8',
-					200: '#f0d0a8',
-					300: '#e4af72',
-					400: '#d4904a',
-					500: '#c9915a',
-					600: '#a0714f',
-					700: '#7d573e',
-					800: '#5a3e2c',
-					900: '#3d2919',
+				mono: {
+					50:  '#f5f5f5',
+					100: '#e8e8e8',
+					200: '#d0d0d0',
+					300: '#aaaaaa',
+					400: '#777777',
+					500: '#444444',
+					600: '#2a2a2a',
+					700: '#1e1e1e',
+					800: '#141414',
+					900: '#0a0a0a',
 				},
-				warm: {
-					50: '#fdf8f4',
-					100: '#f5ede0',
-					200: '#e8d5c4',
-					300: '#d4b896',
-					400: '#c09070',
-					500: '#a0714f',
-				}
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
